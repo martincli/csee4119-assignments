@@ -8,7 +8,7 @@ The purpose of this assignment was to implement the Bellman Ford routing algorit
 Running
 -------
 The program is written in Python version 2.7. To run, each client should run:
->python bfclient.py <CONFIG_FILE>
+>python bfclient.py \<CONFIG_FILE\>
 
 Each node/client has its own config file that is consistent with all others. Ensure that the config file is in the same directory as 'bfclient.py'.
 

@@ -8,10 +8,10 @@ The purpose of this assignment was to implement a simple client-server chatroom 
 Running
 -------
 The program is written in Python version 2.7. To run, first start the server:
->python server.py <PORT>
+>python server.py \<PORT\>
 
 Connect to server:
->python client.py <HOST> <PORT>
+>python client.py \<HOST\> \<PORT\>
 
 Ensure that 'user_pass.txt' is in the same directory as 'server.py'.
 
@@ -20,7 +20,7 @@ Description
 The commands supported are described in the assignment, provided in 'assignment.pdf'.
 
 For extra credit, basic friends list functionality was also added:
-- addfriend <USER>: adds user to friends list (error if user does not exist or is already on friends list)
-- removefriend <USER>: removes user from friends list (error if user is not a friend)
+- addfriend \<USER\>: adds user to friends list (error if user does not exist or is already on friends list)
+- removefriend \<USER\>: removes user from friends list (error if user is not a friend)
 - viewfriends: displays friends list 
-- messagefriends <MESSAGE>: messages all users on friends list (private message, online/offline functionality is the same as the message command)
+- messagefriends \<MESSAGE\>: messages all users on friends list (private message, online/offline functionality is the same as the message command)
